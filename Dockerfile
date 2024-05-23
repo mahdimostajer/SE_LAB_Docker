@@ -1,20 +1,19 @@
-FROM docker.arvancloud.ir/python:3.13-rc-alpine
+FROM docker.arvancloud.ir/python:3.11.4-slim-buster
 
 WORKDIR /app
 
-COPY ./requirements.txt .
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
 
-RUN python -m venv ./venv
-RUN python -m pip install -r requirements.txt
-RUN source ./venv/bin/activate
+COPY requirements.txt .
 
-COPY . .
-
-RUN python manage.py makemigrations
-RUN python manage.py migrate
-RUN python manage.py createsuperuser
+RUN pip install -r requirements.txt
 
 COPY . .
+
+# RUN python manage.py makemigrations
+# RUN python manage.py migrate
+# RUN python manage.py createsuperuser
 
 EXPOSE 8000
 

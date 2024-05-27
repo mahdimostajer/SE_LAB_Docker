@@ -50,6 +50,9 @@ notes/<id>/ --> get details of a note
 notes/create/ --> create a note
 notes/<id>/delete/ --> delete a note
 ```
+### انجام تسک های داده شده و نمایش مرحله به مرحله آن ها با تصویر
+
+### پاسخ سوالات
 ### وظایف Dockerfile، Image و Container
 
 #### Dockerfile

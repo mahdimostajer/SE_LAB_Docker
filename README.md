@@ -50,9 +50,39 @@ notes/<id>/ --> get details of a note
 notes/create/ --> create a note
 notes/<id>/delete/ --> delete a note
 ```
-### انجام تسک های داده شده و نمایش مرحله به مرحله آن ها با تصویر
+# انجام تسک های داده شده و نمایش مرحله به مرحله آن ها با تصویر
+### ساخت کاربر جدید
+<img src="./pic/1.png"/>
 
-### پاسخ سوالات
+### ورود به عنوان کاربر user1
+<img src="./pic/2.png"/>
+
+### ساخت یادداشت اول برای user1
+<img src="./pic/3.png"/>
+
+### ساخت یادداشت دوم برای user1
+<img src="./pic/4.png"/>
+
+### دریافت همه یادداشت ها
+<img src="./pic/5.png"/>
+
+### حذف یادداشت اول
+<img src="./pic/6.png"/>
+
+### حذف همه یادداشت ها
+<img src="./pic/7.png"/>
+
+### بالا آوردن کل پروژه با docker compose
+<img src="./pic/8.png"/>
+
+###  نشان دادن containerها و imageها
+<img src="./pic/9.png"/>
+
+### ورود به کانتینر django و اجرا کردن دستوراتی از قبیل ls و migrate
+<img src="./pic/10.png"/>
+
+
+# پاسخ سوالات
 ### وظایف Dockerfile، Image و Container
 
 #### Dockerfile
